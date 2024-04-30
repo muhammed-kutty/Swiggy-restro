@@ -1,0 +1,82 @@
+.L-body {
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.L-filter .filter-btn {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(199, 204, 202);
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+}
+.L-search input {
+  width: 300px;
+  height: 35px;
+  background-color: rgb(236, 226, 216);
+  border-radius: 13px;
+  padding-left: 30px;
+  border: none;
+}
+.L-search button {
+  margin-left: 10px;
+  font-size: 18px;
+  height: 35px;
+  width: 110px;
+  border-radius: 13px;
+  border: none;
+  background-color: rgb(236, 226, 216);
+}
+
+.L-res_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.L-restro_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(236, 226, 216);
+  margin-left: 25px;
+  border-radius: 15px;
+}
+
+.L-restro_card .h3 {
+  padding-top: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 25px;
+  background-color: rgb(223, 213, 203);
+}
+
+.L-restro_card .h4 {
+  font-weight: 500;
+  padding-top: 20px;
+  width: 300px;
+  height: 55px;
+  background-color: rgb(223, 213, 203);
+}
+
+.L-restro_card img {
+  width: 310px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: rgb(223, 213, 203);
+  margin-bottom: 50px;
+}
+
+.L-main {
+  display: flex;
+  justify-content: space-between;
+}

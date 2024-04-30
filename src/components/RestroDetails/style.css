@@ -1,0 +1,178 @@
+/*  .menu-Container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  
+} 
+ .menu-Container .heading h1{
+    -webkit-font-smoothing: antialiased;
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.92);
+
+}
+.menu-Container h2{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(2, 6, 12, 0.6);
+    margin-bottom: 20px;
+}
+.detail{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(2, 6, 12, 0.15);
+    background: white;
+    box-shadow: rgba(66, 64, 64, 0.14) 7px 21px 26px 16px;
+
+}
+.detail .detail-main{
+    display: flex;
+    
+}
+
+.detail .detail-main .cost{
+    padding-left: 50px;
+}
+.detail .cusins{
+    padding-left: 10px;
+}
+.detail  .outlet{
+    padding-left: 30px;
+}
+.detail  .delivery{
+    padding-left: 30px;
+
+}
+.detail .discriiption {
+    font-family: Basis_Grotesque_Pro;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.menu{
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.menu .menu-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .menu-head h2{
+    color: black;
+    margin-bottom: 44px;
+
+}
+
+.menu .menu-head p a{
+    color: black;
+    margin-bottom: 44px;
+    text-decoration: none;
+}
+
+.menu .menu-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu-items .descr{
+    margin-bottom: 100px;
+}
+.menu .menu-img img{
+    width: 150px;
+    height: 150px;
+}
+
+.accordion-item{
+    border: none;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+.card {
+     box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #475f7b;
+    overflow: hidden;
+}
+.rc-accordion-toggle {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    justify-content: space-between;
+    background-color: #ebedf0;
+    transition: 0.3s;
+}
+.rc-accordion-toggle.active{
+    background-color: #5a8dee;
+}
+.rc-accordion-toggle.active .rc-accordion-icon{
+    transform: rotate(180deg);
+    color: #fff;
+}
+.rc-accordion-card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.rc-accordion-card:last-child{
+    margin-bottom: 0;
+}
+.rc-accordion-title{
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 0;
+    color: #475F7B;
+    transition: 0.3s;
+}
+.rc-accordion-toggle.active .rc-accordion-title{
+    color: #fff;
+}
+.rc-accordion-icon{
+    position: relative;
+    top: 2px;
+    color: #475F7B;
+    transition: 0.35s;
+    font-size: 12px;
+}
+.rc-accordion-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 15px;
+}
+.rc-accordion-body p{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #727E8C;
+}
+.rc-collapse{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+.rc-collapse.show{
+    height: auto;
+    opacity: 1;
+}
